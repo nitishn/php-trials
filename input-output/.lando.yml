@@ -1,0 +1,6 @@
+name: php-trials
+services:
+  myservice:
+    type: php:8.0
+    via: nginx
+    webroot: www
