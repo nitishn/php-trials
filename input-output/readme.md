@@ -3,7 +3,10 @@
 
   Jul/6/2018
 
-  You are provided a CSV file which contains usernames and other meta data. Download the source here [https://bitbucket.org/nitishn/php-trials/src/master/](https://bitbucket.org/nitishn/php-trials/src/master/).
+
+  ## Iteration 1 - Reading a CSV File
+
+  You are provided a CSV file which contains usernames and other meta data. Source is in the www folder (data.csv).
 
   Create a PHP script which does the following;
 
@@ -34,6 +37,7 @@
   - Namespace your classes
   - SQL queries should be sanitized.
 
+  ```
       require_once('./classes/User.php');
       require_once('./classes/UserManager.php');
 
@@ -45,6 +49,7 @@
       $userManager->getUser(EMAIL_ADDRESS);
       $userManager->deleteUser(EMAIL_ADDRESS);
       $userManager->getAllUsers();
+  ```
 
   The "program" should do the following:
 
